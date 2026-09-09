@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Aurora editor preview">
+  <rect width="960" height="540" fill="#07101a"/>
+  <rect x="0" y="0" width="960" height="42" fill="#0c1a28"/>
+  <line x1="0" y1="42" x2="960" y2="42" stroke="rgba(224, 255, 246, 0.12)" stroke-width="1"/>
+  <circle cx="22" cy="21" r="6" fill="#ff5f57"/><circle cx="42" cy="21" r="6" fill="#febc2e"/><circle cx="62" cy="21" r="6" fill="#28c840"/>
+  <text x="84" y="26" fill="rgba(224, 255, 246, 0.52)" font-size="12" font-family="system-ui,sans-serif">Dripnex</text>
+  <text x="480" y="26" text-anchor="middle" fill="#e0fff6" font-size="12" font-weight="600" font-family="system-ui,sans-serif">Northern veil</text>
+  <text x="942" y="26" text-anchor="end" fill="rgba(224, 255, 246, 0.52)" font-size="11" font-family="system-ui,sans-serif">Aurora</text>
+  <rect x="0" y="42" width="240" height="498" fill="#0c1a28"/>
+  <line x1="240" y1="42" x2="240" y2="540" stroke="rgba(224, 255, 246, 0.12)" stroke-width="1"/>
+  <text x="16" y="70" fill="#e0fff6" font-size="13" font-weight="700" font-family="system-ui,sans-serif">Notes</text>
+  <rect x="12" y="82" width="216" height="28" rx="8" fill="#040a12"/>
+  <rect x="8" y="128" width="224" height="48" rx="8" fill="rgba(94, 240, 200, 0.2)"/>
+  <rect x="8" y="128" width="3" height="48" fill="#5ef0c8"/>
+  <text x="20" y="150" fill="#5ef0c8" font-size="13" font-weight="600" font-family="system-ui,sans-serif">Northern veil</text>
+  <text x="20" y="166" fill="rgba(224, 255, 246, 0.52)" font-size="11" font-family="system-ui,sans-serif">Selected note</text>
+  <text x="270" y="90" fill="#e0fff6" font-size="26" font-weight="700" font-family="system-ui,sans-serif">Northern veil</text>
+  <text x="270" y="130" fill="#e0fff6" font-size="14" font-family="system-ui,sans-serif">A simple editor mock using theme colors.</text>
+  <rect x="270" y="150" width="520" height="40" rx="6" fill="rgba(94, 240, 200, 0.2)"/>
+  <rect x="270" y="150" width="4" height="40" fill="#5ef0c8"/>
+  <text x="286" y="175" fill="rgba(224, 255, 246, 0.52)" font-size="14" font-style="italic" font-family="system-ui,sans-serif">Aurora theme preview</text>
+  <circle cx="278" cy="220" r="3" fill="#5ef0c8"/><text x="290" y="224" fill="#e0fff6" font-size="14" font-family="system-ui,sans-serif">token layer</text>
+  <circle cx="278" cy="248" r="3" fill="#5ef0c8"/><text x="290" y="252" fill="#e0fff6" font-size="14" font-family="system-ui,sans-serif">install dripnex/theme-aurora</text>
+  <rect x="0" y="512" width="960" height="28" fill="#0c1a28"/>
+  <text x="16" y="530" fill="rgba(224, 255, 246, 0.52)" font-size="11" font-family="system-ui,sans-serif">Markdown</text>
+  <text x="944" y="530" text-anchor="end" fill="rgba(224, 255, 246, 0.52)" font-size="11" font-family="system-ui,sans-serif">Aurora</text>
+</svg>

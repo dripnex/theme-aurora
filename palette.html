@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Aurora — palette</title>
+<style>
+:root {    --bg-base: #07101a;
+    --bg-surface: #0c1a28;
+    --bg-elevated: #142838;
+    --bg-inset: #040a12;
+    --bg-hover: rgba(224, 255, 246, 0.06);
+    --bg-active: rgba(224, 255, 246, 0.1);
+    --text-primary: #e0fff6;
+    --text-secondary: rgba(224, 255, 246, 0.74);
+    --text-muted: rgba(224, 255, 246, 0.52);
+    --text-faint: rgba(224, 255, 246, 0.34);
+    --border: rgba(224, 255, 246, 0.12);
+    --border-subtle: rgba(224, 255, 246, 0.07);
+    --border-strong: rgba(224, 255, 246, 0.18);
+    --accent: #5ef0c8;
+    --accent-hover: #7ff5d6;
+    --accent-muted: rgba(94, 240, 200, 0.2);
+    --accent-subtle: rgba(94, 240, 200, 0.1);
+    --glass-bg: rgba(7, 16, 26, 0.92);
+    --glass-border: rgba(224, 255, 246, 0.1);
+    --glass-bg-menu: rgba(20, 40, 56, 0.96);
+    --glass-border-menu: rgba(224, 255, 246, 0.1);
+    --status-active: #5ef0c8;
+    --status-on-hold: #c9a45c;
+    --status-completed: #6ad4a0;
+    --status-dropped: #cf6875;}
+body{margin:0;background:var(--bg-base);color:var(--text-primary);font:16px/1.4 system-ui,sans-serif}
+main{max-width:900px;margin:0 auto;padding:40px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.chip{background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.swatch{height:72px}
+.m{padding:10px}
+code,span{display:block;color:var(--text-muted);font-size:12px;margin-top:4px;word-break:break-all}
+</style></head><body><main>
+<h1>Aurora</h1><p style="color:var(--text-muted)">Northern lights. Teal/violet aurora.</p>
+<div class="grid"><div class="chip"><div class="swatch" style="background:var(--bg-base)"></div><div class="m"><b>Base</b><code>--bg-base</code><span>#07101a</span></div></div><div class="chip"><div class="swatch" style="background:var(--bg-surface)"></div><div class="m"><b>Surface</b><code>--bg-surface</code><span>#0c1a28</span></div></div><div class="chip"><div class="swatch" style="background:var(--bg-elevated)"></div><div class="m"><b>Elevated</b><code>--bg-elevated</code><span>#142838</span></div></div><div class="chip"><div class="swatch" style="background:var(--text-primary)"></div><div class="m"><b>Text</b><code>--text-primary</code><span>#e0fff6</span></div></div><div class="chip"><div class="swatch" style="background:var(--accent)"></div><div class="m"><b>Accent</b><code>--accent</code><span>#5ef0c8</span></div></div><div class="chip"><div class="swatch" style="background:var(--status-active)"></div><div class="m"><b>Active</b><code>--status-active</code><span>#5ef0c8</span></div></div><div class="chip"><div class="swatch" style="background:var(--status-on-hold)"></div><div class="m"><b>On hold</b><code>--status-on-hold</code><span>#c9a45c</span></div></div><div class="chip"><div class="swatch" style="background:var(--status-dropped)"></div><div class="m"><b>Dropped</b><code>--status-dropped</code><span>#cf6875</span></div></div></div>
+</main></body></html>
