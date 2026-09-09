@@ -1,0 +1,7 @@
+{
+  "id": "theme-aurora",
+  "name": "Aurora",
+  "version": "0.1.0",
+  "description": "Northern lights. Teal/violet aurora.",
+  "main": "dist/index.js"
+}
